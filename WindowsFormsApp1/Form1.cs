@@ -237,7 +237,7 @@ namespace SimpleEngine
         }
 
         //function to handle the resizing of the image after a double click on it
-        private void pictureBox1_DoubleClick(object sender, EventArgs e)
+        private void pictureBox1_DoubleClick(object sender, MouseEventArgs e)
         {
             PictureBox pic = (PictureBox)sender;
             pic.SizeMode = PictureBoxSizeMode.StretchImage;
