@@ -132,7 +132,7 @@ namespace SimpleEngine
             pic.SizeMode = PictureBoxSizeMode.StretchImage;
             pic.Size = new System.Drawing.Size(sizeSquare, sizeSquare);
             pic.Location = new System.Drawing.Point(x, y);
-            pic.Load("oui.png");
+            pic.Load("../../Images/player.png");
             pic.Name = "player";
             pictures.Add(pic);
             panel1.Controls.Add(pic);
@@ -200,7 +200,7 @@ namespace SimpleEngine
             pic.SizeMode = PictureBoxSizeMode.StretchImage;
             pic.Size = new Size(sizeFlag, sizeFlag);
             pic.Location = new Point(x, y);
-            pic.Load("flag.png"); // Load the flag sprite.
+            pic.Load("../../Images/flag.png"); // Load the flag sprite.
             pic.Name = "Flag";
             pictures.Add(pic);
             panel1.Controls.Add(pic);
